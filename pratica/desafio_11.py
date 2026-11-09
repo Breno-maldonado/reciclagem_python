@@ -25,3 +25,11 @@ num1 = 9
 num2 = 2
 resto = num1 % num2
 print(resto)
+
+notas = [8, 9, 10]
+print(notas[1])
+
+tarefas = ['estudar', 'treinar']
+tarefas.append('dormir')
+print(tarefas)
+print(len(tarefas))
