@@ -33,3 +33,21 @@ tarefas = ['estudar', 'treinar']
 tarefas.append('dormir')
 print(tarefas)
 print(len(tarefas))
+
+convidados = ['Ana', 'Bruno', 'Carlos']
+for convidado in convidados:
+    print(convidado)
+
+pessoa = {
+    'nome': 'Breno',
+    'idade': 24,
+    'cidade': 'São Paulo'
+}
+pessoa['idade'] = 25
+print(pessoa['idade'])
+
+temperatura = 30
+if temperatura >= 25:
+    print('Está calor!')
+else:
+    print('Está fresco!')
